@@ -1,0 +1,124 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+Installation:\
+\
+Package 3.7 from python.org\
+python3 command to check version\
+idle3 & command to open dedicated python terminal\
+\
+Types of scripts:\
+1. Shell scripting: Perl, Python, Tcl\
+2. Powershell: Disadvantage: not backward compatible. Only certain Kernels are compatible\
+3. VBS: NodeJS, JS, TS, AJS\
+\
+Python:\
+Object oriented scripting (Build classes) or object based scripting (Using existing classes)\
+Mutating: Method that writes or modifies data\
+Non Mutating: Method that reads only\
+\
+Compile time: Fixed. Eg. When will salary come, and Run time: Eg. Who will win the next world cup\
+\
+No new keyword is required in Python\
+\
+a = str(\'93Abc\'94)\
+\
+Type Variable - Run Time\
+How much - Run Time - Heap\
+Type Checking - Compile Time\
+Loosely coupled type language\
+\
+No Declaration, simply assign.\
+\
+dir() gives preset values in python.\
+\
+Namespace is displayed using dir(), All global variables, local variables, functions, classes and modules will be displayed as a part of namespace.\
+\
+Mutable, im-mutable\
+Shallow copy: Reuse existing object: temp =  num same address\
+Deep copy: Create new instance: num =123 (Second assignment, new address created)\
+\
+Variable Interpolation is not supported by Python. You cannot replace any variable value inside double quotes\
+\
+For a string of length 8, 0-7, and -9 to -1. Right most is -1.\
+To extract part of a string: a[ start: stop: step ] (Use whatever you say by mouth as index. No need to subtract -1)\
+default start: 0, stop: len(a), step: 1\
+full string a[:]\
+a[::2] two steps splice\
+First four a[:4]\
+Except first four -a[4:]\
+\
+a=\'91Hello\'92\
+b=\'91World\'92\
+a=a+b\
+\
+a will be garbage dumped and a will have content HelloWorld in a new address\
+\
+a.lstrip(\'91*\'92)[::-1]\
+\
+for elem in numlist:\
+for elem in numlist[::2]\
+etc.\
+\
+Arrays in python are of heterogeneous nature. So you can append any type of element in an array. To be able to perform functions on a single type in the array, you need to filter out typeof whatever type you are trying to make an array of.\
+\
+Loops. Another way is \
+for index in range(len(numlst)):\
+	numlst[index] = numlst[index] ** 2\
+\
+Data Structures:\
+\
+tuple: constant and immutable (Fixed), Traversing through the Tuple is also similar to that of a list. a= ()\
+list: non constant and mutable (Commands, append, extend, insert and pop) a = []\
+List is a superset of arrays and list in the Java or JS equivalent\
+\
+a = (10,20,30,40)\
+\
+If I have to check the type, it will be of type tuple\
+a[0:2] = (10, 20) of tuple type.\
+\
+Now to add element:\
+\
+a = a[0,2] + (25,) + a[2:]\
+25 has (,) to make it tuple type\
+You get a full tuple then\
+\
+a, b = 10, 20\
+*a, b, c = 10, 20, 30, 40, 50, 60\
+* denotes a list, so declaration in order will be a = [10, 20, 30, 40]\
+b = 50, c = 60\
+However in such declarations, we can use only one star.\
+\
+If we say a = b.split(\'91-\'91), we are unpacking b into a list \'91a\'92.\
+\
+define an empty dictionary (dict): colours = \{\}\
+define values: colours=\{\'93blue\'94:10,\'94orange\'94:20\}\
+if \'93red\'94 in colours (to search)\
+iteration: for k in colours:\
+	print(k)\
+\
+\
+menu = \{\}\
+menu[\'93idli\'94] = 20\
+menu[\'93dosa\'94] = 45\
+city = input(\'93enter city \'93).lower()\
+if city in menu:\
+	item = menu[city]\
+	print(item)\
+else:\
+	print(\'93City name is invalid\'94)\
+\
+\{10,20,30,40\} is a 	set\
+\
+to declare class object: a= sample()\
+Python has runtime classes and not compile time classes\
+\
+Tri.py\
+class Tri():\
+\
+}
